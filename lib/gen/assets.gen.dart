@@ -9,24 +9,90 @@
 
 import 'package:flutter/widgets.dart';
 
+class $AssetsIconsGen {
+  const $AssetsIconsGen();
+
+  /// File path: assets/icons/2710222.png
+  AssetGenImage get a2710222 => const AssetGenImage('assets/icons/2710222.png');
+
+  /// File path: assets/icons/hashtag.png
+  AssetGenImage get hashtag => const AssetGenImage('assets/icons/hashtag.png');
+
+  /// File path: assets/icons/home.png
+  AssetGenImage get home => const AssetGenImage('assets/icons/home.png');
+
+  /// File path: assets/icons/microphone.png
+  AssetGenImage get microphone =>
+      const AssetGenImage('assets/icons/microphone.png');
+
+  /// File path: assets/icons/par.png
+  AssetGenImage get par => const AssetGenImage('assets/icons/par.png');
+
+  /// File path: assets/icons/user.png
+  AssetGenImage get user => const AssetGenImage('assets/icons/user.png');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [
+    a2710222,
+    hashtag,
+    home,
+    microphone,
+    par,
+    user,
+  ];
+}
+
 class $AssetsImagesGen {
   const $AssetsImagesGen();
+
+  /// File path: assets/images/Screenshot (57).png
+  AssetGenImage get screenshot57 =>
+      const AssetGenImage('assets/images/Screenshot (57).png');
 
   /// File path: assets/images/banner_test.png
   AssetGenImage get bannerTest =>
       const AssetGenImage('assets/images/banner_test.png');
 
+  /// File path: assets/images/hashtag.png
+  AssetGenImage get hashtag => const AssetGenImage('assets/images/hashtag.png');
+
   /// File path: assets/images/logo.png
   AssetGenImage get logo => const AssetGenImage('assets/images/logo.png');
 
   /// List of all assets
-  List<AssetGenImage> get values => [bannerTest, logo];
+  List<AssetGenImage> get values => [screenshot57, bannerTest, hashtag, logo];
+}
+
+class $AssetsPadckastMaghalehGen {
+  const $AssetsPadckastMaghalehGen();
+
+  /// File path: assets/padckast_maghaleh/padi-kast.png
+  AssetGenImage get padiKast =>
+      const AssetGenImage('assets/padckast_maghaleh/padi-kast.png');
+
+  /// File path: assets/padckast_maghaleh/radio-codeyad.png
+  AssetGenImage get radioCodeyad =>
+      const AssetGenImage('assets/padckast_maghaleh/radio-codeyad.png');
+
+  /// File path: assets/padckast_maghaleh/ramzon.png
+  AssetGenImage get ramzon =>
+      const AssetGenImage('assets/padckast_maghaleh/ramzon.png');
+
+  /// File path: assets/padckast_maghaleh/tecknost.png
+  AssetGenImage get tecknost =>
+      const AssetGenImage('assets/padckast_maghaleh/tecknost.png');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [padiKast, radioCodeyad, ramzon, tecknost];
 }
 
 class Assets {
   const Assets._();
 
+  static const $AssetsIconsGen icons = $AssetsIconsGen();
   static const $AssetsImagesGen images = $AssetsImagesGen();
+  static const $AssetsPadckastMaghalehGen padckastMaghaleh =
+      $AssetsPadckastMaghalehGen();
 }
 
 class AssetGenImage {
